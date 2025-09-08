@@ -17,6 +17,8 @@ try {
     // console.log(data)
 
     // await fs.copyFile("README.md" , "copy.txt")
+    // const info = await fs.stat("copy.txt")
+    // console.log(info.isDirectory())
 } catch (error) {
     console.log(error)
 }
